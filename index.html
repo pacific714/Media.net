@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<title>Media.net assignment</title>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="main.css" media="screen" />
+</head>
+
+<body>
+    <div class="main-div" style="">
+        <div class="left-box">
+            <div>
+                <span>Enter Email</span>
+            </div>
+            <div>
+                <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter Email here.." id="myInput"
+                    required>
+            </div>
+            <button type="button" class="add-button" id="addButton" onclick="newElement()">ADD</button>
+        </div>
+        <div class="right-box">
+            <input type="text" id="mySearchInput" onkeyup="mySearchFunction()" placeholder="Search for Email.." title="Type in a Eame">
+            <ul id="myUL">
+                <li>abc@gmail.com</li>
+                <li class="checked">xyz@gmail.com</li>
+                <li>oyz@gmail.com</li>
+                <li>wyz@gmail.com</li>
+                <li>myz@gmail.com</li>
+                <li>nyz@gmail.com</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+<script type="text/javascript" src="main.js"></script>
+
+</html>
